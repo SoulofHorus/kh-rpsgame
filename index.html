@@ -10,18 +10,23 @@
     <h2>Press your choice to play!</h2>
     <div class="row">
       <div class="column">
-        <button type="button" class="rock-button" onclick="">Rock</button>
+        <button type="button" class="rock-button" onclick="play('rock')">Rock</button>
       </div>
       <div class="column">
-        <button type="button" class="paper-button" onclick="">Paper</button>
+        <button type="button" class="paper-button" onclick="play('paper')">Paper</button>
       </div>
       <div class="column">
-        <button type="button" class="scissors-button" onclick="">Scissors</button>
+        <button type="button" class="scissors-button" onclick="play('scissors')">Scissors</button>
       </div>
      </div>
     <div class="results">
-      <!-- results section -->
+      <h3>Computer's choice is: </h3>
+      <p id="compChoice"></p>
+      <h3> You choose: </h3>
+      <p id="user"></p>
+      <h3> The winner is: </h3>
+      <p id="gameResult"></p>
     </div>
-    <script src="rps.js"></script>
+    <script src="logic.js"></script>
   </body>
 </html>
