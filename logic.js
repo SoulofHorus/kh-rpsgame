@@ -8,12 +8,16 @@
 //this is where we will find the computers choice and compare it to the users.
 var game_result;
 function play(userChoice){
+  var computerChoice = Math.random();
+  if(computerChoice <0.34) {
+    computerChoice = "rock";
+  }
 }
 
 
 
 //this is where we decalre how to compare the choices based on the basic rules of RPS.
-//think about how a player wins/loses. What is the logic? View the flowchart for reference. 
+//think about how a player wins/loses. What is the logic? View the flowchart for reference.
 var compare = function(choice1, choice2){
 
 }
