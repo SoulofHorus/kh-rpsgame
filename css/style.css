@@ -19,7 +19,7 @@ p{
 }
 
 .rock-button{
-    background-image: url(../img/rock.jpg);
+    cursor: pointer;
 }
 
 
